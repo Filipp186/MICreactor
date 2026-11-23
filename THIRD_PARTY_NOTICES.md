@@ -27,8 +27,15 @@ license directory.
 | libsndfile | LGPL-2.1-or-later | https://github.com/libsndfile/libsndfile |
 | pyannote.audio | MIT | https://github.com/pyannote/pyannote-audio |
 | pyannote speaker-diarization-community-1 model | CC-BY-4.0 | https://huggingface.co/pyannote/speaker-diarization-community-1 |
+| ReDimNet2 architecture and B3 VoxCeleb2 LM checkpoint | MIT | https://github.com/PalabraAI/redimnet2 |
+| SciPy | BSD-3-Clause and bundled component licenses | https://github.com/scipy/scipy |
 | PyInstaller bootloader | GPL-2.0-or-later with Bootloader Exception | https://github.com/pyinstaller/pyinstaller |
 
 Qt/PySide6 distribution details and the corresponding-source written offer are
 provided in `QT_LGPL_COMPLIANCE.md`. The LGPLv3 text is provided in
 `THIRD_PARTY_LICENSES/LGPL-3.0.txt`.
+
+ReDimNet2 source is pinned to commit `c5bbe0b76e37df698c403f8844e41304ceab6307`.
+Its MIT notice is retained in `micreactor/_vendor/redimnet2/LICENSE` and the
+vendored package header. Weights are downloaded separately from the official
+v1.0.0 release, verified by SHA-256, and then used offline.
